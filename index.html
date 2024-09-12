@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Medical Hall</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SK Medical Hall</h1>
+        <nav>
+            <ul>
+                <li><a href="#medicines">Medicines</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="medicines">
+        <h2>Our Medicines</h2>
+        <div class="medicine-card">
+            <h3>Aspirin</h3>
+            <button onclick="showDetails('aspirin')">Show Details</button>
+            <div id="aspirin" class="details" style="display: none;">
+                <p><strong>Description:</strong> Aspirin is used to reduce pain, fever, or inflammation.</p>
+                <p><strong>Benefits:</strong> Relieves pain, reduces fever, and decreases inflammation.</p>
+                <p><strong>Disease Used For:</strong> Headaches, muscle pain, arthritis, and heart attacks.</p>
+            </div>
+        </div>
+        
+        <div class="medicine-card">
+            <h3>Paracetamol</h3>
+            <button onclick="showDetails('paracetamol')">Show Details</button>
+            <div id="paracetamol" class="details" style="display: none;">
+                <p><strong>Description:</strong> Paracetamol is used to relieve mild to moderate pain and reduce fever.</p>
+                <p><strong>Benefits:</strong> Effective for pain relief and fever reduction.</p>
+                <p><strong>Disease Used For:</strong> Headaches, muscle aches, arthritis, backaches, toothaches, colds, and fevers.</p>
+            </div>
+        </div>
+        
+        <!-- Add more medicines here -->
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to SK Medical Hall, your trusted pharmacy for all your medical needs. We offer a wide range of medicines and healthcare products to ensure your well-being.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 SK Medical Hall. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
